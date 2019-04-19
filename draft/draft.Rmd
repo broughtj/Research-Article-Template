@@ -1,0 +1,41 @@
+---
+output: 
+  pdf_document:
+    citation_package: natbib
+    keep_tex: true
+    fig_caption: true
+    latex_engine: pdflatex
+    template: ./mytemplate.tex
+title: "Buy at the Bid Price, Sell at the Offer Price"
+author:
+- name: Everett Klipp 
+  affiliation: The Chicago Board of Trade
+
+abstract: "In this article ..."
+           
+keywords: "Arbitrage, Volatility, Econometrics, Computational Methods, Whatever"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+geometry: margin=1in
+fontfamily: mathpazo
+fontsize: 11pt
+spacing: double
+bibliography: ./master.bib
+biblio-style: apsr
+---
+
+> _From time to time it is probably necessary to detach oneself from the technicalities of the argument and
+> to ask quite naively what it is all about._ -- F.A. Hayek
+
+# Introduction
+
+It was the lowest volatility period, it was the highest volatility period.[^1] It all starts in @Buchanan1964 ...
+
+<!--
+\setlength{\leftskip}{0.2in}
+\setlength{\parskip}{8pt}
+\vspace*{-0.2in}
+\noindent
+-->
+
+
+[^1]: With apologies to Mr. Dickens. This is an example of a footnote.
